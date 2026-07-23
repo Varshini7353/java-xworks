@@ -1,153 +1,307 @@
 class LibraryRunner{
 public static void main(String []args){
+	boolean isCreated;
 
-boolean isCreated=Library.createLibrary("Central Library","Bangalore",50000,"Ramesh","Engineering",500.0,true,9876502001L);
+
+isCreated=Library.createLibrary("Central Library","Bangalore",50000,"Ramesh","Engineering",500.0,true,9876502001L);
 System.out.println("is account created :"+isCreated);
+if(isCreated==true){
 Library.getLibraryDetails();
+}else System.out.println("Invalid Account details");
 
-Library.createLibrary("City Library","Mysore",25000,"Suresh","Science",300.0,true,9876502002L);
-Library.getLibraryDetails();
 
-Library.createLibrary("Knowledge Library","Tumkur",18000,"Mahesh","Commerce",250.0,false,9876502003L);
+isCreated=Library.createLibrary("City Library","Mysore",25000,"Suresh","Science",300.0,true,9876502002L);
+System.out.println("is account created :"+isCreated);
+if(isCreated==true){
 Library.getLibraryDetails();
+}else System.out.println("Invalid Account details");
 
-Library.createLibrary("Readers Point","Hubli",22000,"Kiran","Literature",350.0,true,9876502004L);
+isCreated=Library.createLibrary("Knowledge Library","Tumkur",18000,"Mahesh","Commerce",250.0,false,9876502003L);
+System.out.println("is account created :"+isCreated);
+if(isCreated==true){
 Library.getLibraryDetails();
+}else System.out.println("Invalid Account details");
 
-Library.createLibrary("Wisdom Library","Mangalore",27000,"Ravi","Technology",400.0,true,9876502005L);
+isCreated=Library.createLibrary("Readers Point","Hubli",22000,"Kiran","Literature",350.0,true,9876502004L);
+System.out.println("is account created :"+isCreated);
+if(isCreated==true){
 Library.getLibraryDetails();
+}else System.out.println("Invalid Account details");
 
-Library.createLibrary("National Library","Belagavi",32000,"Anil","History",450.0,true,9876502006L);
+isCreated=Library.createLibrary("Wisdom Library","Mangalore",27000,"Ravi","Technology",400.0,true,9876502005L);
+System.out.println("is account created :"+isCreated);
+if(isCreated==true){
 Library.getLibraryDetails();
+}else System.out.println("Invalid Account details");
 
-Library.createLibrary("Smart Library","Udupi",15000,"Vinay","Engineering",280.0,false,9876502007L);
+isCreated=Library.createLibrary("National Library","Belagavi",32000,"Anil","History",450.0,true,9876502006L);
+System.out.println("is account created :"+isCreated);
+if(isCreated==true){
 Library.getLibraryDetails();
+}else System.out.println("Invalid Account details");
 
-Library.createLibrary("Modern Library","Shimoga",21000,"Ajay","Medical",300.0,true,9876502008L);
+isCreated=Library.createLibrary("Smart Library","Udupi",15000,"Vinay","Engineering",280.0,false,9876502007L);
+System.out.println("is account created :"+isCreated);
+if(isCreated==true){
 Library.getLibraryDetails();
-Library.createLibrary("Golden Library","Davanagere",26000,"Prakash","Law",380.0,true,9876502009L);
-Library.getLibraryDetails();
-Library.createLibrary("Future Library","Bellary",17000,"Harish","Computer Science",350.0,false,9876502010L);
-Library.getLibraryDetails();
+}else System.out.println("Invalid Account details");
 
-Library.createLibrary("Public Library","Hassan",19000,"Lokesh","General",250.0,true,9876502011L);
+isCreated=Library.createLibrary("Modern Library","Shimoga",21000,"Ajay","Medical",300.0,true,9876502008L);
+System.out.println("is account created :"+isCreated);
+if(isCreated==true){
 Library.getLibraryDetails();
+}else System.out.println("Invalid Account details");
 
-Library.createLibrary("Scholars Library","Raichur",16000,"Deepak","Engineering",300.0,false,9876502012L);
+isCreated=Library.createLibrary("Golden Library","Davanagere",26000,"Prakash","Law",380.0,true,9876502009L);
+System.out.println("is account created :"+isCreated);
+if(isCreated==true){
 Library.getLibraryDetails();
+}else System.out.println("Invalid Account details");
 
-Library.createLibrary("Infinity Library","Bidar",28000,"Ganesh","Science",450.0,true,9876502013L);
+isCreated=Library.createLibrary("Future Library","Bellary",17000,"Harish","Computer Science",350.0,false,9876502010L);
+System.out.println("is account created :"+isCreated);
+if(isCreated==true){
 Library.getLibraryDetails();
+}else System.out.println("Invalid Account details");
 
-Library.createLibrary("Unity Library","Madikeri",14000,"Naveen","Literature",250.0,false,9876502014L);
+isCreated=Library.createLibrary("Public Library","Hassan",19000,"Lokesh","General",250.0,true,9876502011L);
+System.out.println("is account created :"+isCreated);
+if(isCreated==true){
 Library.getLibraryDetails();
+}else System.out.println("Invalid Account details");
 
-Library.createLibrary("Education Library","Karwar",23000,"Santosh","Commerce",320.0,true,9876502015L);
+isCreated=Library.createLibrary("Scholars Library","Raichur",16000,"Deepak","Engineering",300.0,false,9876502012L);
+System.out.println("is account created :"+isCreated);
+if(isCreated==true){
 Library.getLibraryDetails();
+}else System.out.println("Invalid Account details");
 
-Library.createLibrary("Readers Hub","Mandya",20000,"Vijay","Technology",300.0,true,9876502016L);
+isCreated=Library.createLibrary("Infinity Library","Bidar",28000,"Ganesh","Science",450.0,true,9876502013L);
+System.out.println("is account created :"+isCreated);
+if(isCreated==true){
 Library.getLibraryDetails();
+}else System.out.println("Invalid Account details");
 
-Library.createLibrary("Book World","Kolar",26000,"Rakesh","Engineering",420.0,true,9876502017L);
+isCreated=Library.createLibrary("Unity Library","Madikeri",14000,"Naveen","Literature",250.0,false,9876502014L);
+System.out.println("is account created :"+isCreated);
+if(isCreated==true){
 Library.getLibraryDetails();
+}else System.out.println("Invalid Account details");
 
-Library.createLibrary("Elite Library","Bagalkot",18000,"Manoj","Medical",350.0,false,9876502018L);
+isCreated=Library.createLibrary("Education Library","Karwar",23000,"Santosh","Commerce",320.0,true,9876502015L);
+System.out.println("is account created :"+isCreated);
+if(isCreated==true){
 Library.getLibraryDetails();
+}else System.out.println("Invalid Account details");
 
-Library.createLibrary("Success Library","Vijayapura",24000,"Sanjay","General",300.0,true,9876502019L);
+isCreated=Library.createLibrary("Readers Hub","Mandya",20000,"Vijay","Technology",300.0,true,9876502016L);
+System.out.println("is account created :"+isCreated);
+if(isCreated==true){
 Library.getLibraryDetails();
+}else System.out.println("Invalid Account details");
 
-Library.createLibrary("Galaxy Library","Gadag",27000,"Arun","History",450.0,true,9876502020L);
+isCreated=Library.createLibrary("Book World","Kolar",26000,"Rakesh","Engineering",420.0,true,9876502017L);
+System.out.println("is account created :"+isCreated);
+if(isCreated==true){
 Library.getLibraryDetails();
+}else System.out.println("Invalid Account details");
 
-Library.createLibrary("Campus Library","Hospet",19000,"Rohit","Engineering",350.0,false,9876502021L);
+isCreated=Library.createLibrary("Elite Library","Bagalkot",18000,"Manoj","Medical",350.0,false,9876502018L);
+System.out.println("is account created :"+isCreated);
+if(isCreated==true){
 Library.getLibraryDetails();
+}else System.out.println("Invalid Account details");
 
-Library.createLibrary("Knowledge Hub","Yadgir",17000,"Karthik","Science",280.0,true,9876502022L);
+isCreated=Library.createLibrary("Success Library","Vijayapura",24000,"Sanjay","General",300.0,true,9876502019L);
+System.out.println("is account created :"+isCreated);
+if(isCreated==true){
 Library.getLibraryDetails();
+}else System.out.println("Invalid Account details");
 
-Library.createLibrary("Book Centre","Haveri",22000,"Nitin","Commerce",300.0,true,9876502023L);
+isCreated=Library.createLibrary("Galaxy Library","Gadag",27000,"Arun","History",450.0,true,9876502020L);
+System.out.println("is account created :"+isCreated);
+if(isCreated==true){
 Library.getLibraryDetails();
+}else System.out.println("Invalid Account details");
 
-Library.createLibrary("Learning Library","Kodagu",20000,"Shashi","Literature",320.0,true,9876502024L);
+isCreated=Library.createLibrary("Campus Library","Hospet",19000,"Rohit","Engineering",350.0,false,9876502021L);
+System.out.println("is account created :"+isCreated);
+if(isCreated==true){
 Library.getLibraryDetails();
+}else System.out.println("Invalid Account details");
 
-Library.createLibrary("Vision Library","Sirsi",16000,"Kumar","Technology",280.0,false,9876502025L);
+isCreated=Library.createLibrary("Knowledge Hub","Yadgir",17000,"Karthik","Science",280.0,true,9876502022L);
+System.out.println("is account created :"+isCreated);
+if(isCreated==true){
 Library.getLibraryDetails();
+}else System.out.println("Invalid Account details");
 
-Library.createLibrary("Classic Library","Puttur",28000,"Vikas","Law",400.0,true,9876502026L);
+isCreated=Library.createLibrary("Book Centre","Haveri",22000,"Nitin","Commerce",300.0,true,9876502023L);
+System.out.println("is account created :"+isCreated);
+if(isCreated==true){
 Library.getLibraryDetails();
+}else System.out.println("Invalid Account details");
 
-Library.createLibrary("Open Library","Koppal",18000,"Mohan","Medical",290.0,false,9876502027L);
+isCreated=Library.createLibrary("Learning Library","Kodagu",20000,"Shashi","Literature",320.0,true,9876502024L);
+System.out.println("is account created :"+isCreated);
+if(isCreated==true){
 Library.getLibraryDetails();
+}else System.out.println("Invalid Account details");
 
-Library.createLibrary("Bright Library","Sakleshpur",21000,"Umesh","History",350.0,true,9876502028L);
+isCreated=Library.createLibrary("Vision Library","Sirsi",16000,"Kumar","Technology",280.0,false,9876502025L);
+System.out.println("is account created :"+isCreated);
+if(isCreated==true){
 Library.getLibraryDetails();
+}else System.out.println("Invalid Account details");
 
-Library.createLibrary("Digital Library","Chikmagalur",25000,"Ashok","Computer Science",500.0,true,9876502029L);
+isCreated=Library.createLibrary("Classic Library","Puttur",28000,"Vikas","Law",400.0,true,9876502026L);
+System.out.println("is account created :"+isCreated);
+if(isCreated==true){
 Library.getLibraryDetails();
+}else System.out.println("Invalid Account details");
 
-Library.createLibrary("Community Library","Belur",15000,"Tejas","General",250.0,false,9876502030L);
+isCreated=Library.createLibrary("Open Library","Koppal",18000,"Mohan","Medical",290.0,false,9876502027L);
+System.out.println("is account created :"+isCreated);
+if(isCreated==true){
 Library.getLibraryDetails();
+}else System.out.println("Invalid Account details");
 
-Library.createLibrary("Royal Library","Halebidu",23000,"Raghu","Engineering",400.0,true,9876502031L);
+isCreated=isCreated=Library.createLibrary("Bright Library","Sakleshpur",21000,"Umesh","History",350.0,true,9876502028L);
+System.out.println("is account created :"+isCreated);
+if(isCreated==true){
 Library.getLibraryDetails();
+}else System.out.println("Invalid Account details");
 
-Library.createLibrary("Trust Library","Dharwad",27000,"Praveen","Science",450.0,true,9876502032L);
+isCreated=Library.createLibrary("Digital Library","Chikmagalur",25000,"Ashok","Computer Science",500.0,true,9876502029L);
+System.out.println("is account created :"+isCreated);
+if(isCreated==true){
 Library.getLibraryDetails();
+}else System.out.println("Invalid Account details");
 
-Library.createLibrary("Lakshmi Library","Bijapur",18000,"Rajesh","Commerce",300.0,false,9876502033L);
+isCreated=Library.createLibrary("Community Library","Belur",15000,"Tejas","General",250.0,false,9876502030L);
+System.out.println("is account created :"+isCreated);
+if(isCreated==true){
 Library.getLibraryDetails();
+}else System.out.println("Invalid Account details");
 
-Library.createLibrary("Heritage Library","Chikkaballapur",22000,"Girish","Literature",320.0,true,9876502034L);
+isCreated=Library.createLibrary("Royal Library","Halebidu",23000,"Raghu","Engineering",400.0,true,9876502031L);
+System.out.println("is account created :"+isCreated);
+if(isCreated==true){
 Library.getLibraryDetails();
+}else System.out.println("Invalid Account details");
 
-Library.createLibrary("Global Library","Ramanagara",26000,"Murali","Technology",380.0,true,9876502035L);
+isCreated=Library.createLibrary("Trust Library","Dharwad",27000,"Praveen","Science",450.0,true,9876502032L);
+System.out.println("is account created :"+isCreated);
+if(isCreated==true){
 Library.getLibraryDetails();
+}else System.out.println("Invalid Account details");
 
-Library.createLibrary("Rainbow Library","Nelamangala",17000,"Dev","History",290.0,false,9876502036L);
+isCreated=Library.createLibrary("Lakshmi Library","Bijapur",18000,"Rajesh","Commerce",300.0,false,9876502033L);
+System.out.println("is account created :"+isCreated);
+if(isCreated==true){
 Library.getLibraryDetails();
+}else System.out.println("Invalid Account details");
 
-Library.createLibrary("Family Library","Kanakapura",21000,"Pavan","General",300.0,true,9876502037L);
+isCreated=Library.createLibrary("Heritage Library","Chikkaballapur",22000,"Girish","Literature",320.0,true,9876502034L);
+System.out.println("is account created :"+isCreated);
+if(isCreated==true){
 Library.getLibraryDetails();
+}else System.out.println("Invalid Account details");
 
-Library.createLibrary("City Readers","Bhatkal",24000,"Sagar","Law",350.0,true,9876502038L);
+isCreated=Library.createLibrary("Global Library","Ramanagara",26000,"Murali","Technology",380.0,true,9876502035L);
+System.out.println("is account created :"+isCreated);
+if(isCreated==true){
 Library.getLibraryDetails();
+}else System.out.println("Invalid Account details");
 
-Library.createLibrary("Star Library","Gokarna",19000,"Akash","Engineering",340.0,true,9876502039L);
+isCreated=Library.createLibrary("Rainbow Library","Nelamangala",17000,"Dev","History",290.0,false,9876502036L);
+System.out.println("is account created :"+isCreated);
+if(isCreated==true){
 Library.getLibraryDetails();
+}else System.out.println("Invalid Account details");
 
-Library.createLibrary("Prime Library","Kundapura",25000,"Charan","Computer Science",450.0,true,9876502040L);
+isCreated=Library.createLibrary("Family Library","Kanakapura",21000,"Pavan","General",300.0,true,9876502037L);
+System.out.println("is account created :"+isCreated);
+if(isCreated==true){
 Library.getLibraryDetails();
+}else System.out.println("Invalid Account details");
 
-Library.createLibrary("Phoenix Library","Virajpet",22000,"Venu","Medical",350.0,true,9876502041L);
+isCreated=Library.createLibrary("City Readers","Bhatkal",24000,"Sagar","Law",350.0,true,9876502038L);
+System.out.println("is account created :"+isCreated);
+if(isCreated==true){
 Library.getLibraryDetails();
+}else System.out.println("Invalid Account details");
 
-Library.createLibrary("Heritage Book House","Mudigere",18000,"Dinesh","History",300.0,false,9876502042L);
+isCreated=Library.createLibrary("Star Library","Gokarna",19000,"Akash","Engineering",340.0,true,9876502039L);
+System.out.println("is account created :"+isCreated);
+if(isCreated==true){
 Library.getLibraryDetails();
+}else System.out.println("Invalid Account details");
 
-Library.createLibrary("Readers Paradise","Nanjangud",27000,"Sunil","Engineering",420.0,true,9876502043L);
+isCreated=Library.createLibrary("Prime Library","Kundapura",25000,"Charan","Computer Science",450.0,true,9876502040L);
+System.out.println("is account created :"+isCreated);
+if(isCreated==true){
 Library.getLibraryDetails();
+}else System.out.println("Invalid Account details");
 
-Library.createLibrary("Life Library","Sira",21000,"Pramod","Science",320.0,true,9876502044L);
+isCreated=Library.createLibrary("Phoenix Library","Virajpet",22000,"Venu","Medical",350.0,true,9876502041L);
+System.out.println("is account created :"+isCreated);
+if(isCreated==true){
 Library.getLibraryDetails();
+}else System.out.println("Invalid Account details");
 
-Library.createLibrary("Best Library","Tiptur",17000,"Yogesh","Commerce",280.0,false,9876502045L);
+isCreated=Library.createLibrary("Heritage Book House","Mudigere",18000,"Dinesh","History",300.0,false,9876502042L);
+System.out.println("is account created :"+isCreated);
+if(isCreated==true){
 Library.getLibraryDetails();
+}else System.out.println("Invalid Account details");
 
-Library.createLibrary("Wisdom Point","Arsikere",23000,"Ramesh","Technology",350.0,true,9876502046L);
+isCreated=Library.createLibrary("Readers Paradise","Nanjangud",27000,"Sunil","Engineering",420.0,true,9876502043L);
+System.out.println("is account created :"+isCreated);
+if(isCreated==true){
 Library.getLibraryDetails();
+}else System.out.println("Invalid Account details");
 
-Library.createLibrary("Healthy Minds Library","Bhadravati",25000,"Suresh","Medical",400.0,true,9876502047L);
+isCreated=Library.createLibrary("Life Library","Sira",21000,"Pramod","Science",320.0,true,9876502044L);
+System.out.println("is account created :"+isCreated);
+if(isCreated==true){
 Library.getLibraryDetails();
+}else System.out.println("Invalid Account details");
 
-Library.createLibrary("Wellness Library","Harihar",26000,"Mahesh","General",380.0,true,9876502048L);
+isCreated=Library.createLibrary("Best Library","Tiptur",17000,"Yogesh","Commerce",280.0,false,9876502045L);
+System.out.println("is account created :"+isCreated);
+if(isCreated==true){
 Library.getLibraryDetails();
+}else System.out.println("Invalid Account details");
 
-Library.createLibrary("National Book Centre","Channarayapatna",18000,"Kiran","Law",300.0,false,9876502049L);
+isCreated=Library.createLibrary("Wisdom Point","Arsikere",23000,"Ramesh","Technology",350.0,true,9876502046L);
+System.out.println("is account created :"+isCreated);
+if(isCreated==true){
 Library.getLibraryDetails();
+}else System.out.println("Invalid Account details");
 
-Library.createLibrary("Community Knowledge Center","Tumakuru",30000,"Ravi","Engineering",500.0,true,9876502050L);
+isCreated=Library.createLibrary("Healthy Minds Library","Bhadravati",25000,"Suresh","Medical",400.0,true,9876502047L);
+System.out.println("is account created :"+isCreated);
+if(isCreated==true){
 Library.getLibraryDetails();
+}else System.out.println("Invalid Account details");
+
+isCreated=Library.createLibrary("Wellness Library","Harihar",26000,"Mahesh","General",380.0,true,9876502048L);
+System.out.println("is account created :"+isCreated);
+if(isCreated==true){
+Library.getLibraryDetails();
+}else System.out.println("Invalid Account details");
+
+isCreated=Library.createLibrary("National Book Centre","Channarayapatna",18000,"Kiran","Law",300.0,false,9876502049L);
+System.out.println("is account created :"+isCreated);
+if(isCreated==true){
+Library.getLibraryDetails();
+}else System.out.println("Invalid Account details");
+
+isCreated=Library.createLibrary("Community Knowledge Center","Tumakuru",30000,"Ravi","Engineering",500.0,true,9876502050L);
+System.out.println("is account created :"+isCreated);
+if(isCreated==true){
+Library.getLibraryDetails();
+}else System.out.println("Invalid Account details");
 }
 }

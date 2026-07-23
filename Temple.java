@@ -8,22 +8,71 @@ static double donationAmount;
 static boolean hasAnnadanam;
 static long contactNumber;
 
-public static boolean createTemple(String name,String loc,int pCount,String cPriest,String dName,double dAmount,boolean annadanam,long number){
+public static boolean createTemple(String name,String loc,int pCount,String cPriest,String dName,
+double dAmount,boolean annadanam,long number){
 boolean isCreated=false;
 
-templeName=name;
-templeLocation=loc;
-priestsCount=pCount;
-chiefPriest=cPriest;
-deityName=dName;
-donationAmount=dAmount;
-hasAnnadanam=annadanam;
-contactNumber=number;
+boolean istempleNameValid=false;
+boolean istempleLocationValid=false;
+boolean ispriestsCountValid=false;
+boolean ischiefPriestValid=false;
+boolean isdeityNameValid=false;
+boolean isdonationAmountValid=false;
+boolean ishasAnnadanamValid=false;
+boolean iscontactNumberValid=false;
 
-isCreated=false;
+
+if(name!=null && !name.isEmpty()){
+	templeName=name;
+	istempleNameValid=true;
+}else System.out.println("Invalid Temple name");
+
+if(loc!=null && !loc.isEmpty()){
+	templeLocation=loc;
+	istempleLocationValid=true;
+}else System.out.println("Invalid templeLocation");
+
+if(pCount!=0){
+	priestsCount=pCount;
+	ispriestsCountValid=true;
+}else System.out.println("Invalid priests Count");
+
+if(cPriest!=null && !cPriest.isEmpty()){
+	chiefPriest=cPriest;
+	ischiefPriestValid=true;
+}else System.out.println("Invalid chief Priest");
+
+if(dName!=null && !dName.isEmpty()){
+	deityName=dName;
+	isdeityNameValid=true;
+}else System.out.println("Invalid deity Name");
+
+if(dAmount!=0.0){
+	donationAmount=dAmount;
+	isdonationAmountValid=true;
+}else System.out.println("Invalid donationAmount");
+
+if(annadanam!=false){
+	hasAnnadanam=annadanam;
+	ishasAnnadanamValid=true;
+}else System.out.println("hasAnnadanam not found");
+
+if(number!=0){
+	contactNumber=number;
+	iscontactNumberValid=true;
+}else System.out.println("Invalid contactNumber");
+
+
+if(istempleNameValid && istempleLocationValid && ispriestsCountValid && ischiefPriestValid 
+&& isdeityNameValid && isdonationAmountValid && ishasAnnadanamValid && iscontactNumberValid){	
+
+isCreated=true;
+}
+
 return isCreated;
 }
 public static void getTempleDetails(){
+	
 System.out.println("Temple Name:"+templeName);
 System.out.println("Temple Location:"+templeLocation);
 System.out.println("Priest Count:"+priestsCount);
